@@ -1,0 +1,38 @@
+#main{
+    background-image: url("C:\\Users\\aethi\\source\\repos\\PersonalPortfolio\\src\\assets\\images\\myphoto4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-item img {
+  height: 50px;      /* roughly matches Bulma's default SVG height */
+  width: auto;       /* keep aspect ratio */
+  max-height: none;  /* remove Bulma’s cap */
+}
+
+.navbar-brand{
+    margin-left: 300px;
+}
+
+.navbar{
+  background-image: linear-gradient(to right, rgba(0, 4, 38, 0.888), rgba(14, 0, 54, 0.904));
+}
+
+.navbar-end{
+  margin-right: 300px;
+}
+
+.navbar-item:hover:not(.logo-item){
+  background-image: linear-gradient(to right, rgba(1, 1, 86, 0.789), rgba(38, 0, 68, 0.805));
+  border-radius: 25px;
+  padding: 20px;
+
+}
+
+.navbar-item:hover img {
+  background-color: transparent;
+}
+
+.noHover{
+    pointer-events: none;
+}
