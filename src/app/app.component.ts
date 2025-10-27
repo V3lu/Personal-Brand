@@ -46,4 +46,16 @@ export class AppComponent {
     ScrollToContact(){
         this.contactRef?.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
     }
+
+    RedirectToGH(){
+        window.open("https://github.com/V3lu", "_blank")
+    }
+
+    RedirectToLI(){
+        window.open("https://www.linkedin.com/in/adam-krzysztof-wielog%C3%B3rski-217ba8321/", "_blank")
+    }
+
+    SendEmail(){
+        window.open('mailto:adamwi.business@gmail.com', '_self');
+    }
 }
