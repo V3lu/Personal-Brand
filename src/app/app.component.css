@@ -54,6 +54,7 @@
 #colsdiv{
   height: 100%;
   color: oklch(0.79 0.1 251.78);
+  margin-top: 8%;
 }
 
 #twolinescircle{
