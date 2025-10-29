@@ -3,6 +3,8 @@
     color: oklch(0.79 0.1 251.78);
     border: 1px solid rgba(90, 143, 221, 0.77);
     background-color: rgba(127, 172, 255, 0.144);
+    width: 10%;
+    height: 5%;
 }
 
 .hero.is-large {
@@ -29,19 +31,57 @@
     padding-top: 4% !important;
 }
 
+#FSA{
+  width: 70%;
+  height: auto;
+  margin-left: 16%;
+}
 
+.boxevery{
+  border: 1px solid rgba(128, 128, 128, 0.362);
+  background-image: linear-gradient(to right, rgba(0, 6, 57, 0.903), rgba(0, 0, 39, 0.903));
+  transition: 0.3s ease;
+}
 
+#buttoncode{
+  background-image: linear-gradient(to right, rgba(50, 50, 249, 0.986), rgb(159, 57, 237));
+  border: 1px solid blue;
+  height: 50px;
+  width: 20%;
+}
 
+.icon{
+  font-size: x-large;
+  padding-top: 28%;
+}
 
+#boxes{
+  margin-top: 3%;
+  margin-left: 2%;
+}
 
+#text{
+  margin-right: 2%;
+}
 
+.boxevery:hover{
+  border: 1px solid rgba(66, 111, 247, 0.927);
+  transition: 0.3s ease;
+  box-shadow:
+    0 0 1px 2px #5f6dffb5, 
+    0 0 5px 8px rgba(53, 89, 249, 0.303),
+    0 0 20px 15px rgba(64, 117, 242, 0.351);
+  background-image: linear-gradient(to right, rgba(0, 7, 70, 0.903), rgba(0, 0, 52, 0.903))
+}
 
+.boxevery:hover > button{
+  transform: scaleX(1.15) scaleY(1.15);
+  transition: 0.3s ease;
+}
 
-
-
-
-
-
+.boxevery > button{
+  transition: 0.3s ease;
+}
 
 
 
