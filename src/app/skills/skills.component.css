@@ -51,6 +51,7 @@
 
 .boxevery2:hover{
   transform: scaleX(1.07) scaleY(1.07);
+  background-image: linear-gradient(to left, rgba(234, 120, 33, 0.986), rgba(234, 120, 33, 0.781));
   transition: 0.3s ease;
 }
 
@@ -62,6 +63,7 @@
 
 .boxevery3:hover{
   transform: scaleX(1.07) scaleY(1.07);
+  background-image: linear-gradient(to left, rgba(62, 157, 6, 0.836), rgba(6, 120, 2, 0.688));
   transition: 0.3s ease;
 }
 
