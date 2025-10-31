@@ -1,3 +1,12 @@
+#whoami{
+    pointer-events: none;
+    color: oklch(0.79 0.1 251.78);
+    border: 1px solid rgba(90, 143, 221, 0.77);
+    background-color: rgba(127, 172, 255, 0.144);
+    width: 10%;
+    height: 5%;
+}
+
 .hero.is-large {
   background: radial-gradient(circle at bottom left,
       rgba(0, 255, 255, 0.122) 0%,      /* turquoise glow bottom-left */
@@ -13,25 +22,11 @@
   color: #d8e1ff;
 }
 
+.dots{
+    width: 9%;
+    height: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hero-body{
+    padding-top: 4% !important;
+}
