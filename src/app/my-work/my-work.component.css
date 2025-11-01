@@ -30,3 +30,49 @@
 .hero-body{
     padding-top: 4% !important;
 }
+
+.buttons > button{
+  border: 1px solid rgba(128, 128, 128, 0.362);
+  background-image: linear-gradient(to left, rgba(0, 6, 57, 0.903), rgba(0, 0, 39, 0.903));
+  transition: 0.3s ease;
+  color: white;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.card{
+  background-image: linear-gradient(to right, rgba(21, 10, 44, 0.903), rgba(4, 4, 65, 0.903));
+  color: darkgray;
+  border-radius: 5%;
+  
+}
+
+/* Ensure the image follows the card's rounded top corners */
+.card-image img {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  object-fit: cover; /* optional: ensures image fills the frame nicely */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
