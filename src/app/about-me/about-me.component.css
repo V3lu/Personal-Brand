@@ -3,7 +3,7 @@
     color: oklch(0.79 0.1 251.78);
     border: 1px solid rgba(90, 143, 221, 0.77);
     background-color: rgba(127, 172, 255, 0.144);
-    width: 10%;
+    width: auto;
     height: 5%;
 }
 
@@ -52,7 +52,7 @@
 
 .icon{
   font-size: x-large;
-  padding-top: 28%;
+  padding-top: 7px;
 }
 
 #boxes{

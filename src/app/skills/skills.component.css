@@ -18,7 +18,7 @@
     color: oklch(0.79 0.1 251.78);
     border: 1px solid rgba(90, 143, 221, 0.77);
     background-color: rgba(127, 172, 255, 0.144);
-    width: 10%;
+    width: auto;
     height: 5%;
 }
 
@@ -182,6 +182,7 @@
 
 .frontend > button{
     margin-left: 2%;
+    margin-top: 4%;
     color: white;
     background-image: linear-gradient(to right, rgba(2, 9, 80, 0.903), rgba(16, 16, 112, 0.903));
     pointer-events: none;
@@ -191,6 +192,7 @@
 
 .backend > button{
     margin-left: 2%;
+    margin-top: 4%;
     color: white;
     background-image: linear-gradient(to right, rgba(172, 79, 2, 0.903), rgba(197, 104, 5, 0.903));
     pointer-events: none;
@@ -200,6 +202,7 @@
 
 .database > button{
     margin-left: 2%;
+    margin-top: 4%;
     color: white;
     background-image: linear-gradient(to right, rgba(0, 101, 34, 0.903), rgba(22, 90, 8, 0.903));
     pointer-events: none;
@@ -208,6 +211,7 @@
 
 .vc > button{
     margin-left: 2%;
+    margin-top: 4%;
     color: white;
     background-image: linear-gradient(to right, rgba(127, 0, 0, 0.903), rgba(173, 1, 73, 0.903));
     pointer-events: none;
@@ -216,6 +220,7 @@
 
 .AI > button{
     margin-left: 2%;
+    margin-top: 4%;
     color: white;
     background-image: linear-gradient(to right, rgba(108, 0, 127, 0.903), rgba(182, 30, 159, 0.903));
     pointer-events: none;
@@ -224,6 +229,7 @@
 
 .UX > button{
     margin-left: 2%;
+    margin-top: 4%;
     color: white;
     background-image: linear-gradient(to right, rgba(117, 8, 157, 0.903), rgba(140, 7, 169, 0.903));
     pointer-events: none;
