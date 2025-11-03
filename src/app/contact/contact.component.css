@@ -1,0 +1,158 @@
+.hero.is-large {
+  background: radial-gradient(circle at bottom left,
+      rgba(0, 76, 255, 0.122) 0%,      /* turquoise glow bottom-left */
+      rgba(10, 20, 50, 0.597) 35%,       /* smooth fade */
+      rgba(0, 1, 4, 0.434) 100%),        /* dark navy base */
+    radial-gradient(circle at top right,
+      rgba(0, 200, 255, 0.067) 0%,      /* cyan glow top-right */
+      rgba(10, 20, 50, 0.718) 40%,
+      transparent 80%);
+  background-blend-mode: screen;
+  background-color: #060a1a; /* fallback */
+  min-height: 100vh;
+  color: #d8e1ff;
+}
+
+#whoami{
+    pointer-events: none;
+    color: oklch(0.79 0.1 251.78);
+    border: 1px solid rgba(90, 143, 221, 0.77);
+    background-color: rgba(127, 172, 255, 0.144);
+    width: auto;
+    height: 5%;
+}
+
+.dots{
+    width: 9%;
+    height: auto;
+}
+
+.hero-body{
+    padding-top: 4% !important;
+}
+
+.button{
+  border-radius: 15px;
+}
+
+.follow{
+  margin-left: 2%;
+}
+
+.following{
+  background-color: rgba(255, 255, 255, 0.242);
+  border: 2px solid rgba(255, 255, 255, 0.625);
+  transition: 0.3s ease;
+}
+
+.following:hover{
+  background-image: linear-gradient(to right, rgba(122, 122, 255, 0.753), rgba(170, 104, 220, 0.627));
+  border: 2px solid rgb(101, 196, 255);
+  transition: 0.3s ease;
+  transform: scaleX(1.2) scaleY(1.2);
+}
+
+.card{
+  background-image: linear-gradient(to left, rgba(0, 6, 57, 0.903), rgba(15, 15, 53, 0.903));
+  color: darkgray;
+  -moz-border-radius: 15px; 
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+  margin-top: 2%;
+}
+
+.inner{
+  border: 1px solid rgb(81, 76, 210);
+  background-color: transparent;
+  transition: 0.3s ease;
+}
+
+.inner:hover > .card-content > .media > .media-left > button{
+  transform: scaleX(1.08) scaleY(1.08);
+  transition: 0.2s ease;
+}
+
+.inner > .card-content > .media > .media-left > button{
+  transition: 0.2s ease;
+}
+
+.ikonainner{
+  height: 50px;
+  border-radius: 15px;
+}
+
+.media-left{
+  height: 50px;
+}
+
+.lightblue{
+  color: oklch(0.79 0.1 251.78);
+}
+
+.pink{
+  color: oklch(79.649% 0.13598 331.5);
+}
+
+.gray{
+  color: gainsboro;
+}
+
+#email{
+  background-image: linear-gradient(to right, rgba(50, 50, 249, 0.986), rgb(159, 57, 237));
+  border: 0px solid black;
+  color: white;
+}
+
+#phone{
+  background-image: linear-gradient(to right, rgba(94, 2, 137, 0.903), rgba(204, 6, 158, 0.91));
+  border: 0px solid black;
+  color: white;
+}
+
+#location{
+  background-image: linear-gradient(to right, rgba(184, 2, 111, 0.903), rgba(219, 2, 31, 0.91));
+  border: 0px solid black;
+  color: white;
+}
+
+.emailcard{
+  transition: 0.3s ease;
+
+}
+
+.emailcard:hover{
+  transition: 0.3s ease;
+  border: 1px solid rgb(52, 115, 240);
+
+}
+
+.phonecard{
+  transition: 0.3s ease;
+
+}
+
+.phonecard:hover{
+  transition: 0.3s ease;
+  border: 1px solid rgb(231, 65, 231);
+
+}
+
+.locationcard{
+  transition: 0.3s ease;
+
+}
+
+.locationcard:hover{
+  transition: 0.3s ease;
+  border: 1px solid rgb(188, 39, 81);
+
+}
+
+
+
+
+
+
+
+

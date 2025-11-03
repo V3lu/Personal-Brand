@@ -98,14 +98,14 @@
 }
 
 #buttonGH, #buttonLI, #buttonEM{
-  background-color: transparent;
-  border: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0.242);
+  border: 2px solid rgba(255, 255, 255, 0.625);
   transition: 0.3s ease;
 }
 
 #buttonGH:hover, #buttonLI:hover, #buttonEM:hover{
   background-image: linear-gradient(to right, rgba(122, 122, 255, 0.753), rgba(170, 104, 220, 0.627));
-  border: 1px solid rgb(101, 196, 255);
+  border: 2px solid rgb(101, 196, 255);
   transition: 0.3s ease;
   transform: scaleX(1.2) scaleY(1.2);
 }
