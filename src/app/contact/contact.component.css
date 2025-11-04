@@ -53,7 +53,7 @@
 }
 
 .card{
-  background-image: linear-gradient(to left, rgba(0, 6, 57, 0.903), rgba(15, 15, 53, 0.903));
+  background-image: linear-gradient(to left, rgba(0, 4, 40, 0.903), rgba(7, 11, 74, 0.903));
   color: darkgray;
   -moz-border-radius: 15px; 
   -webkit-border-radius: 15px;
@@ -148,6 +148,63 @@
   border: 1px solid rgb(188, 39, 81);
 
 }
+
+input{
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid rgb(87, 65, 231);
+  background-color: rgb(11, 24, 59);
+  transition: 0.3s ease;
+  word-wrap: break-word;
+}
+
+input:hover{
+  border: 1px solid lightskyblue;
+  transition: 0.3s ease;
+}
+
+label{
+  margin-left: 5%;
+  color: darkgray;
+  padding-top: 2%;
+}
+
+#forms{
+  height: 98%;
+}
+
+#submit{
+  margin-left: 5%;
+  margin-top: 2%;
+  background-image: linear-gradient(to right, rgba(50, 50, 249, 0.986), rgb(159, 57, 237));
+  border: 0px solid black;
+  transition: 0.3s ease;
+}
+
+#submit:hover{
+  transition: 0.3s ease;
+    box-shadow:
+    0 0 1px 2px #5f6dffb5, 
+    0 0 3px 5px rgba(53, 89, 249, 0.303),
+    0 0 7px 10px rgba(64, 117, 242, 0.351);
+  transform: scaleX(1.02) scaleY(1.02);
+
+}
+
+#submit:hover > i{
+  transition: 0.3s ease;
+
+}
+
+
+
+
+
+
+
 
 
 

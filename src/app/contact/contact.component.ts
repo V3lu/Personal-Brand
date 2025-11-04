@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+    nameSignal = signal('')
+    mailSignal = signal('')
+    messageSignal = signal('')
 
     RedirectToGH(){
         window.open("https://github.com/V3lu", "_blank")
@@ -19,5 +22,22 @@ export class ContactComponent {
 
     RedirectToX(){
         window.open('https://x.com/_AdamWi', '_blank');
+    }
+
+    assignName(event : Event){
+        const value = (event.target as HTMLInputElement).value;
+        this.nameSignal.set(value);
+    }
+    assignMail(event : Event){
+        const value = (event.target as HTMLInputElement).value;
+        this.mailSignal.set(value);
+    }
+    assignMessage(event : Event){
+        const value = (event.target as HTMLInputElement).value;
+        this.messageSignal.set(value);
+    }
+
+    Submit(){
+        
     }
 }

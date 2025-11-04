@@ -91,7 +91,33 @@
             </div>
           </div>
           <div class="column">
+            <div class="card" id="forms">
+              <div class="field" id="formTOP">
+                <label class="label">Your Name</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="" [value]="nameSignal()" (keyup)="assignName($event)">
+                </div>
+              </div>
 
+              <div class="field">
+                <label class="label">Your Email</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="" [value]="mailSignal()" (keyup)="assignMail($event)">
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Your Message</label>
+                <div class="control">
+                  <input class="input" type="email" placeholder="Tell me about your project..."[value]="messageSignal()" (keyup)="assignMessage($event)">
+                </div>
+              </div>
+
+              <div class="control" style="width: 95%;">
+                <button class="button" style="width: 95%;" id="submit"><span style="color: white;"><i class="fa-solid fa-paper-plane" id="ppicon"></i> Send Message</span></button>
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>
