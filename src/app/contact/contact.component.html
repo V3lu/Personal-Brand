@@ -12,15 +12,15 @@
         <br><br><br><br>
         <div class="columns has-text-left">
           <div class="column">
+            
+          </div>
+          <div class="column is is-three-fifths">
             <div class="card">
               <div class="card-content">
                 <div class="media">
                   <div class="media-left">
                     <figure class="image is-48x48">
-                      <img
-                        src="https://bulma.io/assets/images/placeholders/96x96.png"
-                        alt="Placeholder image"
-                      />
+                      <i class="fa-solid fa-paper-plane" style="font-size: 40px; margin-top: 15%; color: lightskyblue"></i>
                     </figure>
                   </div>
                   <div class="media-content">
@@ -91,38 +91,12 @@
             </div>
           </div>
           <div class="column">
-            <div class="card" id="forms">
-              <div class="field" id="formTOP">
-                <label class="label">Your Name</label>
-                <div class="control">
-                  <input class="input" type="text" placeholder="" [value]="nameSignal()" (keyup)="assignName($event)">
-                </div>
-              </div>
 
-              <div class="field">
-                <label class="label">Your Email</label>
-                <div class="control">
-                  <input class="input" type="text" placeholder="" [value]="mailSignal()" (keyup)="assignMail($event)">
-                </div>
-              </div>
-
-              <div class="field">
-                <label class="label">Your Message</label>
-                <div class="control">
-                  <input class="input" type="email" placeholder="Tell me about your project..."[value]="messageSignal()" (keyup)="assignMessage($event)">
-                </div>
-              </div>
-
-              <div class="control" style="width: 95%;">
-                <button class="button" style="width: 95%;" id="submit"><span style="color: white;"><i class="fa-solid fa-paper-plane" id="ppicon"></i> Send Message</span></button>
-              </div>
-              
-            </div>
           </div>
         </div>
       </div>
       <div class="column">
-        
+
       </div>
     </div>
   </div>

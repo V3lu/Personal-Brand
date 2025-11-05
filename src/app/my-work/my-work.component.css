@@ -64,6 +64,7 @@
   border-top-left-radius: 7%;
   border-top-right-radius: 7%;
   object-fit: cover; /* optional: ensures image fills the frame nicely */
+  transition: 0.3s ease;
 }
 
 .spani{
@@ -71,13 +72,10 @@
   transition: 0.3s ease;
 }
 
-.spani:hover{
-  color: lightskyblue;
+.card:hover > .card-content > .content > p > span{
   transition: 0.3s ease;
+  color: lightskyblue;
 }
-
-
-
 
 
 

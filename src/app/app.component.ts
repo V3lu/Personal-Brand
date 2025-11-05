@@ -3,12 +3,13 @@ import { AboutMeComponent } from "./about-me/about-me.component";
 import { SkillsComponent } from "./skills/skills.component";
 import { MyWorkComponent } from "./my-work/my-work.component";
 import { ContactComponent } from "./contact/contact.component";
+import { FooterComponent } from "./footer/footer.component";
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [AboutMeComponent, SkillsComponent, MyWorkComponent, ContactComponent]
+    imports: [AboutMeComponent, SkillsComponent, MyWorkComponent, ContactComponent, FooterComponent]
 })
 export class AppComponent {
   
